@@ -1,6 +1,6 @@
 {
-  "name": "RamPyro-Bot",
-  "description": "[RamPyro-Bot] is a modular telegram user that runs on Python3 with a pyrogram library. Powered by RamPyro-Bot.",
+  "name": "GzPyro-Bot",
+  "description": "[GzPyro-Bot] is a modular telegram user that runs on Python3 with a pyrogram library. Powered by RamPyro-Bot.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
