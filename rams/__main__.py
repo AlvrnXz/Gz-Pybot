@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# t.me/SharingUserbot & t.me/ramsupportt
+# t.me/SharingUserbot & t.me/GzSupport
 
 from pyrogram import idle
 from uvloop import install
@@ -15,10 +15,10 @@ from rams import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
 from rams.helpers.misc import create_botlog, git, heroku
 
 MSG_ON = """
-🔥 **RamPyro-Bot Menyala** 🔥
+🦋 **GzPyro-Bot Active** 🦋
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 🤖 **Userbot Version -** `{}`
-⌨️ **Ketik** `{}rama` **untuk Mengecheck Bot**
+⌨️ **Ketik** `{}gz` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 """
 
@@ -28,8 +28,8 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("ramsupportt")
-            await bot.join_chat("k0kb4c0de")
+            await bot.join_chat("GzSupport")
+            await bot.join_chat("GzPyrobot")
             await bot.join_chat("userbotch")
             await bot.join_chat("sholawatmajelis")
             await bot.join_chat("SharingUserbot")
@@ -44,7 +44,7 @@ async def main():
             )
         except Exception as a:
             LOGGER("main").warning(a)
-    LOGGER("rams").info(f"RamPyro-Bot v{BOT_VER} [🔥 UDAH AKTIF NGENTOT! 🔥]")
+    LOGGER("rams").info(f"GzPyro-Bot v{BOT_VER} [🦋 UDAH AKTIF CINTAH! 🦋]")
     if not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
     await idle()
@@ -52,7 +52,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("rams").info("Starting RamPyro-Bot")
+    LOGGER("rams").info("Starting GzPyro-Bot")
     install()
     git()
     heroku()
