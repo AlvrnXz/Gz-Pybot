@@ -1,6 +1,6 @@
-# RamPyro-Bot Telegram
+# GzPyro-Bot Telegram
 
-RamPyro-Bot is a modular telegram user that runs on Python3 with a pyrogram library.
+GzPyro-Bot is a modular telegram user that runs on Python3 with a pyrogram library.
 
 I made this repository to have fun while helping you manage the group efficiently and to help reduce boredom when using telegram.
 
@@ -13,8 +13,8 @@ Use this userbot wisely.
 When you have installed this userbot, it means you are ready with the risks.
 ```
 
-<h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RamPyro-Bot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<h3 align="center">Klik Tombol di Bawah ini untuk Deploy Gz-Pybot di Heroku</h3>
+<a href="https://heroku.com/deploy?template=https://github.com/alvrnxz/Gz-Pybot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ## 🖇 Generating Pyrogram String Session
@@ -28,8 +28,8 @@ When you have installed this userbot, it means you are ready with the risks.
 
 ## 🏷 Support
 
-- Follow Channel [@userbotch](https://t.me/userbotch) untuk info Update bot 
-- Gabung Group [@ramsupportt](https://t.me/ramsupportt) untuk diskusi, pelaporan bug, dan bantuan tentang PyroRam-Userbot.
+- Follow Channel [@GzSupport](https://t.me/GzSupport) untuk info Update bot 
+- Gabung Group [@GzSupportGroup](https://t.me/GzSupportGroup) untuk diskusi, pelaporan bug, dan bantuan tentang PyroRam-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
